@@ -1,0 +1,58 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "interests": ["education", "healthcare", "environment"],
+        "pledges": [
+          {
+            "charity_id": 101,
+            "amount": 5000,
+            "status": "pending",
+            "scheduled_date": "2024-11-01T09:00:00Z"
+          },
+          {
+            "charity_id": 102,
+            "amount": 3000,
+            "status": "pending",
+            "scheduled_date": "2024-12-01T09:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "interests": ["animal welfare", "education", "disaster relief"],
+        "pledges": [
+          {
+            "charity_id": 103,
+            "amount": 10000,
+            "status": "pending",
+            "scheduled_date": "2024-11-15T09:00:00Z"
+          }
+        ]
+      }
+    ],
+    "charities": [
+      {
+        "id": 101,
+        "name": "Education for All",
+        "category": "education",
+        "ledger": 1
+      },
+      {
+        "id": 102,
+        "name": "Healthcare Heroes",
+        "category": "healthcare",
+        "ledger": 1
+      },
+      {
+        "id": 103,
+        "name": "Animal Rescue Fund",
+        "category": "animal welfare",
+        "ledger": 2
+      }
+    ]
+  }
+  
+  

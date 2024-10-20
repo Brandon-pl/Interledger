@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "tigerbeetle-node": "^0.16.9"
+  },"main": "app.js",
+  "type": "module"
+}
